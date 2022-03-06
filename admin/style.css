@@ -1,0 +1,309 @@
+body{
+  background-color: #F5F5F5;
+}
+.inp {
+        background: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 18%);
+    border-top: 2px solid #000000;
+}
+.form {
+    height: 50px;
+    border: 1px solid rgba(204, 204, 204, 0.58);
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    padding: 0px 20px 0 15px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+    border: 1px solid #ccc;
+    
+}
+.form1{
+    height: 170px;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 15px;
+    resize: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 0px;
+    padding-right: 40px;
+    font-weight: normal;
+}
+input.dark_btn {
+    outline: none;
+    background: #000000;
+    color: white;
+    border: 1px solid #000000;
+    width: 126px;
+    height: 50px;
+    font-weight: 600;
+    transition: .3s;
+}
+input.dark_btn:hover{
+  color: #000000 ;
+  border-color: #000000;
+  background-color: white;
+
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 16px 8px 16px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: solid 1px;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar a.active1{
+ color: #f1f1f1; 
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  border: none;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 34px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.active:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  /*.sidebar a {font-size: 18px;}*/
+}
+
+
+/*end sidebar*/
+
+header {
+    background-color: black;
+    line-height: 25px;
+}
+.bg{
+  background-image: url('../../assets/img/Mazda 3/Main Is.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bg1{
+  background-image: url('../../assets/img/Mazda 3/Main D.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bga{
+  background-image: url('../../assets/img/Odyssey/IMG_4171.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bga1{
+  background-image: url('../../assets/img/Odyssey/IMG_3070-5.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bgm{
+  background-image: url('../../assets/img/Misc_cars/IMG_1977.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bgm1{
+  background-image: url('../../assets/img/Misc_cars/IMG_1971.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bgc{
+  background-image: url('../../assets/img/Mitchell/IMG_2397-16.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+.bgc1{
+  background-image: url('../../assets/img/Mitchell/IMG_2449-14.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 65vh;
+}
+p.good {
+    line-height: 36px;
+}
+
+h2.man {
+    margin-bottom: 18px;
+    margin-top: 46px;
+}
+
+
+/*slider*/
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*slider end*/
+
+
+.img1 {
+    width: 25%;
+    float: left;
+}
+
+img.imgs1 {
+    width: 100%;
+}
+
+footer.footer {
+    background: black;
+    float: left;
+    width: 100%;
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* line-height: 54px; */
+    padding: 25px 0 5px;
+}
+
+.tbm {
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+label.form-label {
+    font-weight: 600;
+}
+h3.admin {
+    /* text-align: center; */
+    margin-bottom: 34px;
+}
+.single-contact-box {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.single-contact-box .c-icon {
+    float: left;
+    margin-right: 20px;
+}
+.single-contact-box i {
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.fa-clock-o:before {
+    content: "\f017";
+}
+.single-contact-box .c-icon {
+    float: left;
+    margin-right: 20px;
+}
+p.p {
+    color: #666;
+    margin: 0;
+    line-height: 24px;
+    margin-left: 75px;
+    /* float: left; */
+}
+.contact-box-main .contact-title {
+    margin-bottom: 20px;
+}
+.contact-box-main .contact-title h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin: 0;
+    color: #2e2751;
+    position: relative;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-weight: 600;
+}
+.contact-title P{
+  color: #666;
+}
+.contact-title {
+    margin-bottom: 50px;
+    margin-top: 32px;
+}
+
+
+/*admin panel*/
