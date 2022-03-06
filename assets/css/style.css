@@ -362,7 +362,7 @@ img.h_img {
     -moz-transform: scale(0.65);
     -o-transform: scale(0.65);
     -ms-transform: scale(0.65);
-    transform: scale(0.65);
+    transform: scale(0.8);
 }
 .iframe-overlay {
 	position:absolute;
