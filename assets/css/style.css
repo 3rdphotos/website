@@ -351,16 +351,26 @@ img.h_img {
 
 .iframe-holder {
   display: initial;
-  height: 115vw;
-  border: 20px solid #fff;
-  border-radius: 20px;
+  height: 100vw;
+  
 }
 
 .iframe-holder img {
   width: 85vmin;
-  height: 115%;
-  object-fit: contain;
-  object-position: center; /* normally it's the default value */
+  height: auto;
+  
+  position: absolute;
+
+
+  left: 50%;
+
+
+  top: 50%;
+
+
+  transform: translate(-50%, -50%);
+  border: 20px solid white;   
+  border-radius: 20px;
 }
 
 .iframe-overlay {
@@ -539,7 +549,7 @@ img.h_img {
 	.iframe-holder {
     right: -19%;
     width: 138%;
-    height: auto;
+    height: 100%;
     top: 100px;
 }
 .slides-counter {
